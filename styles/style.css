@@ -21,3 +21,28 @@ body{
     display: flex;
     padding: 5px;
 }
+
+.question-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.question{
+    position: relative;
+    display: flex;
+}
+
+.toggle-icon{
+    cursor: pointer;
+}
+
+.answer{
+    display: none;
+    margin-top: 10px;
+    color: hsl(292, 16%, 49%);
+}
+
+.answer.active{
+    display: block;
+    margin-top: 5px;
+}
